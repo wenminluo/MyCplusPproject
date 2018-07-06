@@ -1,0 +1,17 @@
+﻿  main.cpp
+e:\mycplusplustest\mycplusplustest\templatetest.h(42): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\mycplusplustest\mycplusplustest\main.cpp(57): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\mycplusplustest\mycplusplustest\main.cpp(132): warning C4018: “>”: 有符号/无符号不匹配
+e:\mycplusplustest\mycplusplustest\main.cpp(460): warning C4091: “typedef ”: 没有声明变量时忽略“user1”的左侧
+e:\mycplusplustest\mycplusplustest\main.cpp(897): warning C4305: “参数”: 从“double”到“const float”截断
+e:\mycplusplustest\mycplusplustest\main.cpp(896): warning C4101: “comp2”: 未引用的局部变量
+e:\mycplusplustest\mycplusplustest\main.cpp(892): warning C4101: “comp1”: 未引用的局部变量
+e:\mycplusplustest\mycplusplustest\main.cpp(900): warning C4101: “comp3”: 未引用的局部变量
+e:\mycplusplustest\mycplusplustest\main.cpp(947): warning C4101: “err”: 未引用的局部变量
+  MemoryleakTest.cpp
+  正在生成代码...
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+CLogger.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+Debug\TemplateTest.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  myCPlusPlusTest.vcxproj -> E:\myCplusPlusTest\Debug\myCPlusPlusTest.exe
+  myCPlusPlusTest.vcxproj -> E:\myCplusPlusTest\Debug\myCPlusPlusTest.pdb (Full PDB)
