@@ -2,7 +2,7 @@
 * \file 	TBBTest.h
 * \brief	
 *
-*	IntelµÄThreading Building Blocks(Intel TBB) Ïß³Ì³Ø¿â²âÊÔ
+*	Intelçš„Threading Building Blocks(Intel TBB) çº¿ç¨‹æ± åº“æµ‹è¯•
 *
 * \author	lwm email:luowm@greytech.org
 * \version  1.0.0
@@ -17,17 +17,17 @@
 void TBBTest();
 
 
-// ÒÆ¶¯ÓïÒå²âÊÔ
+// ç§»åŠ¨è¯­ä¹‰æµ‹è¯•
 class Spreadsheet
 {
 public:
 	// Move constructor
 	Spreadsheet(Spreadsheet&& src) noexcept
-	{
+		: mWidth(src.mWidth)
+	    , mHeight(src.mHeight)
+	    , mCells(src.mCells) {
 		// Shallow copy of data
-		mWidth = src.mWidth;
-		mHeight = src.mHeight;
-		mCells = src.mCells;
+		
 
 		// Reset the source object, because ownership has been moved!
 		src.mWidth = 0;
